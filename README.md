@@ -73,8 +73,10 @@ src/
 │   ├── query.controller.ts      # HTTP controller (if needed)
 │   ├── query.module.ts          # Query module registration
 │   ├── query.service.ts         # Core logic for query parsing
+├── app.controller.spec.ts
 ├── app.controller.ts
 ├── app.module.ts
+├── app.service.ts
 ├── main.ts                      # Application entry point
 ```
 
