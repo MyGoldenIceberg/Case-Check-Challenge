@@ -65,18 +65,6 @@ The query parameters are dot-notated keys that should be split and inserted corr
 
 ---
 
-## 🧪 Usage
-
-You can test the conversion by calling the `convertQueryToMap()` method available in the `QueryService`. It accepts a URL query string and returns a nested object.
-
-Example:
-```ts
-const query = 'user.name.firstname=Bob&user.name.lastname=Smith&user.favoritecolor=Light%20Blue';
-const result = queryService.convertQueryToMap(query);
-```
-
----
-
 ## 📁 Project Structure
 
 ```
